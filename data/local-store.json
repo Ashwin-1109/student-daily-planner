@@ -1,0 +1,132 @@
+{
+  "takes": [
+    {
+      "id": "4f854d1d-3388-4c30-b45e-f5f6d41a88af",
+      "authorId": "ashwin",
+      "authorName": "Ashwin",
+      "squad": "Phoenix",
+      "text": "AI should be treated like a calculator, not cheating in 2026 classrooms.",
+      "votes": 0,
+      "spicinessScore": 8,
+      "spicinessReason": "The opinion sparks a relevant discussion about the role of AI in education and its potential impact on learning outcomes.",
+      "heatTier": "Scorching",
+      "category": "EdTech",
+      "controversyType": "TechEthics",
+      "audienceSplit": "Students vs Teachers",
+      "safetyLevel": "Clean debate",
+      "tags": [
+        "AIinEducation",
+        "AcademicIntegrity",
+        "TechDebate"
+      ],
+      "createdAt": "2026-06-26T17:49:48.808Z",
+      "rebuttal": "While calculators simply process numbers, AI systems can generate human-like text, solve complex problems, and even offer explanations, blurring the line between tool and intellectual contributor. Treating AI like a calculator overlooks its potential to fundamentally alter the nature of academic work, rather than just augmenting it. By not addressing the unique challenges posed by AI, we risk undermining the very skills and values that education aims to instill.",
+      "steelman": "Here's a revised version: \"In 2026 classrooms, AI tools can be viewed as advanced calculators that augment student learning, freeing instructors to focus on higher-order thinking and critical analysis. By reframing AI as a legitimate educational resource, educators can harness its potential to enhance student understanding and promote more efficient problem-solving. This perspective encourages responsible AI integration, rather than outright prohibition, to foster a more nuanced and effective learning environment.\"",
+      "remix": "AI: tool, not cheatcode. Let's teach smarter, not lazier.",
+      "debateBrief": "* AI can augment human learning like a calculator augments math.\n* Overlooking potential biases in AI-generated content and homework.\n* Evidence on AI's impact on student learning outcomes and fairness."
+    },
+    {
+      "id": "seed-ai-homework",
+      "authorId": "ashwin",
+      "authorName": "Ashwin",
+      "squad": "Phoenix",
+      "text": "Students should be allowed to use AI for homework if they can explain the final answer clearly.",
+      "votes": 22,
+      "spicinessScore": 8.1,
+      "spicinessReason": "It challenges traditional academic integrity rules while adding a skill-based condition.",
+      "heatTier": "Scorching",
+      "category": "Education + AI",
+      "controversyType": "Rule challenge",
+      "audienceSplit": "Teachers may split sharply",
+      "safetyLevel": "Clean debate",
+      "tags": [
+        "ai",
+        "college",
+        "homework",
+        "skills"
+      ],
+      "createdAt": "2026-06-24T08:00:00.000Z",
+      "rebuttal": null,
+      "steelman": null,
+      "remix": null,
+      "debateBrief": null
+    },
+    {
+      "id": "seed-pineapple",
+      "authorId": "rishika",
+      "authorName": "rishika",
+      "squad": "Ember",
+      "text": "Pineapple belongs on pizza and people only hate it because the internet told them to.",
+      "votes": 14,
+      "spicinessScore": 7.2,
+      "spicinessReason": "It targets a long-running food debate with a confident unpopular stance.",
+      "heatTier": "Hot",
+      "category": "Food culture",
+      "controversyType": "Taste war",
+      "audienceSplit": "Classic 50/50 reaction",
+      "safetyLevel": "Clean debate",
+      "tags": [
+        "pizza",
+        "food",
+        "internet"
+      ],
+      "createdAt": "2026-06-23T10:30:00.000Z",
+      "rebuttal": null,
+      "steelman": null,
+      "remix": null,
+      "debateBrief": null
+    },
+    {
+      "id": "seed-group-projects",
+      "authorId": "divyasri",
+      "authorName": "Divyasri",
+      "squad": "Nova",
+      "text": "Group projects should have separate marks for every member because equal marks reward silent passengers.",
+      "votes": 18,
+      "spicinessScore": 8.7,
+      "spicinessReason": "It attacks a common college evaluation system that many students emotionally disagree about.",
+      "heatTier": "Scorching",
+      "category": "College life",
+      "controversyType": "Fairness claim",
+      "audienceSplit": "High student agreement, faculty debate",
+      "safetyLevel": "Clean debate",
+      "tags": [
+        "college",
+        "marks",
+        "teamwork",
+        "fairness"
+      ],
+      "createdAt": "2026-06-25T10:45:00.000Z",
+      "rebuttal": null,
+      "steelman": null,
+      "remix": null,
+      "debateBrief": null
+    },
+    {
+      "id": "seed-movies",
+      "authorId": "neriah",
+      "authorName": "Neriah",
+      "squad": "Inferno",
+      "text": "Most three-hour movies are not epic; they are just badly edited.",
+      "votes": 7,
+      "spicinessScore": 6.8,
+      "spicinessReason": "It dismisses a popular prestige-film habit in a blunt way.",
+      "heatTier": "Hot",
+      "category": "Entertainment",
+      "controversyType": "Taste challenge",
+      "audienceSplit": "Film fans will argue",
+      "safetyLevel": "Clean debate",
+      "tags": [
+        "movies",
+        "editing",
+        "culture"
+      ],
+      "createdAt": "2026-06-25T17:45:00.000Z",
+      "rebuttal": null,
+      "steelman": null,
+      "remix": null,
+      "debateBrief": null
+    }
+  ],
+  "votes": []
+}

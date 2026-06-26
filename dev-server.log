@@ -1,0 +1,82 @@
+
+> hot-take-groq-advanced@2.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.8s
+ ○ Compiling /api/health ...
+ ✓ Compiled /api/health in 1599ms (54 modules)
+ GET /api/health 200 in 1847ms
+ ○ Compiling / ...
+ ✓ Compiled / in 11.1s (591 modules)
+ GET / 200 in 11569ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 9.8s (650 modules)
+ ✓ Compiled (652 modules)
+ GET /api/takes?sort=hottest 200 in 11261ms
+ GET /api/takes?sort=hottest 200 in 11236ms
+ ✓ Compiled /api/stats in 416ms (654 modules)
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at loadManifest (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\load-manifest.js:36:25)
+    at getMaybePagePath (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\require.js:57:59)
+    at getPagePath (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\require.js:92:22)
+    at requirePage (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\require.js:99:22)
+    at C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\load-components.js:98:84
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async loadComponentsImpl (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\load-components.js:98:26)
+    at async Object.loadStaticPaths (C:\Users\Ashwin s\Downloads\hot-take-groq-advanced\hot-take-groq\node_modules\next\dist\server\dev\static-paths-worker.js:23:24) {
+  type: 'SyntaxError',
+  page: '/api/auth/session'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.8s (1170 modules)
+ GET /api/health 200 in 3667ms
+ ✓ Compiled in 1ms (696 modules)
+ GET /api/auth/session 500 in 16355ms
+ ✓ Compiled in 1ms (696 modules)
+ GET /api/squads 200 in 5443ms
+ GET /api/squads 200 in 5537ms
+ GET /api/stats 200 in 5755ms
+ GET /api/stats 200 in 5847ms
+ GET /api/auth/session 200 in 1477ms
+ POST /api/auth/_log 200 in 673ms
+ GET /api/auth/providers 200 in 50ms
+ GET /api/auth/csrf 200 in 19ms
+ POST /api/auth/callback/credentials 200 in 30ms
+ GET /api/auth/session 200 in 27ms
+ GET /api/takes?sort=hottest 200 in 67ms
+ GET /api/squads 200 in 40ms
+ GET /api/stats 200 in 52ms
+(node:31952) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ POST /api/takes 201 in 1371ms
+ GET /api/squads 200 in 41ms
+ GET /api/stats 200 in 51ms
+ ○ Compiling /api/takes/[id]/rebuttal ...
+ ✓ Compiled /api/takes/[id]/rebuttal in 923ms (695 modules)
+ POST /api/takes/4f854d1d-3388-4c30-b45e-f5f6d41a88af/rebuttal 200 in 3388ms
+ GET /api/squads 200 in 60ms
+ GET /api/stats 200 in 77ms
+ ✓ Compiled /api/takes/[id]/steelman in 476ms (697 modules)
+ POST /api/takes/4f854d1d-3388-4c30-b45e-f5f6d41a88af/steelman 200 in 2850ms
+ GET /api/squads 200 in 48ms
+ GET /api/stats 200 in 64ms
+ ○ Compiling /api/takes/[id]/remix ...
+ ✓ Compiled /api/takes/[id]/remix in 542ms (699 modules)
+ POST /api/takes/4f854d1d-3388-4c30-b45e-f5f6d41a88af/remix 200 in 2298ms
+ GET /api/squads 200 in 33ms
+ GET /api/stats 200 in 46ms
+ ✓ Compiled /api/takes/[id]/brief in 417ms (701 modules)
+ POST /api/takes/4f854d1d-3388-4c30-b45e-f5f6d41a88af/brief 200 in 1957ms
+ GET /api/stats 200 in 38ms
+ GET /api/squads 200 in 58ms
+ GET /api/auth/session 200 in 63ms
+ GET /api/auth/session 200 in 47ms
+ GET /api/auth/session 200 in 34ms
+ GET /api/auth/session 200 in 215ms
+ GET /api/auth/session 200 in 63ms
